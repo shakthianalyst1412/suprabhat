@@ -1,0 +1,36 @@
+def title():
+    print("~~~Simple calculator~~~")
+    print()
+
+def calAdd(no1,no2):
+    addRes=no1+no2
+    print(no1,"+",no2,"=",addRes)
+    
+
+def calSub(no1,no2):
+    subRes=no1-no2
+    print(no1,"-",no2,"=",subRes)
+
+def calMultiply(no1,no2):
+    MultiplyRes=no1*no2
+    print(no1,"*",no2,"=",MultiplyRes)
+
+def  calDiv(no1,no2):
+    DivRes=no1/no2
+    print( no1,"//",no2,"=", DivRes)
+
+def calMod (no1,no2):
+    ModRes=no1%no2
+    print( no1,"%",no2,"=", ModRes)
+
+def  calIntDiv(no1,no2):
+    IntDivRes=no1/no2
+    print( no1,"/",no2,"=", IntDivRes)   
+
+title()
+calSub(500,90)
+calAdd(600,10)
+calMultiply(6,6)
+calDiv(5,30)
+calMod(5,33)
+calIntDiv(9,81)
